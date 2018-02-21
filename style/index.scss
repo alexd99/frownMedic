@@ -1,0 +1,183 @@
+html {
+  body {
+    #logoimage{
+      overflow-x: hidden;
+      overflow-y: hidden;
+      width: 113px;
+    }
+    .main-logo{
+      margin-bottom: -40px;
+    }
+    .title-text {
+      text-align: center;
+    }
+    .columned-pictures-title {
+      margin: 20px auto;
+    }
+    .columned-pictures {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-wrap: wrap;
+      .columned-pictures-item {
+        width: 300px;
+        height: 200px;
+        margin: auto 1px;
+        border: 2px solid black;
+      }
+      .columned-pictures-item-title{
+        position: relative;
+        top: -50px;
+        color: white;
+        Text-Shadow: #000000 1px 0 0, #000000 1px 1px 0, #000000 1px -1px 0px, #000000 -1px 1px 0px, #000000 -1px 0px 0px, #000000 -1px -1px 0px,                   #000000 0px 1px 0px, #000000 0px -1px 0px;
+      }
+      #columned-pictures-item1 {
+        background-image: url("../images/columned-images/c-1-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item2 {
+        background-image: url("../images/columned-images/c-2-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item3 {
+        background-image: url("../images/columned-images/c-3-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item4 {
+        background-image: url("../images/columned-images/c-4-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item5 {
+        background-image: url("../images/columned-images/c-5-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item6 {
+        background-image: url("../images/columned-images/c-6-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item7 {
+        background-image: url("../images/columned-images/c-7-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item8 {
+        background-image: url("../images/columned-images/c-8-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item9 {
+        background-image: url("../images/columned-images/c-9-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item10 {
+        background-image: url("../images/columned-images/c-10-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item11 {
+        background-image: url("../images/columned-images/c-11-thumnail.png");
+        background-size: cover;
+      }
+      #columned-pictures-item12 {
+        background-image: url("../images/columned-images/c-12-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item13 {
+        background-image: url("../images/columned-images/c-13-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item14 {
+        background-image: url("../images/columned-images/c-14-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item15 {
+        background-image: url("../images/columned-images/c-15-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item16 {
+        background-image: url("../images/columned-images/c-16-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item17 {
+        background-image: url("../images/columned-images/c-17-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item18 {
+        background-image: url("../images/columned-images/c-18-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item19 {
+        background-image: url("../images/columned-images/c-19-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item20 {
+        background-image: url("../images/columned-images/c-20-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item21 {
+        background-image: url("../images/columned-images/c-21-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item22 {
+        background-image: url("../images/columned-images/c-22-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item23 {
+        background-image: url("../images/columned-images/c-23-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item24 {
+        background-image: url("../images/columned-images/c-24-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item25 {
+        background-image: url("../images/columned-images/c-25-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item26 {
+        background-image: url("../images/columned-images/c-26-thumnail..png");
+        background-size: cover;
+      }
+      #columned-pictures-item27 {
+        background-image: url("../images/columned-images/c-27-thumnail..jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item28 {
+        background-image: url("../images/columned-images/c-28-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item29 {
+        background-image: url("../images/columned-images/c-29-thumnail.jpg");
+        background-size: cover;
+      }
+      #columned-pictures-item30 {
+        background-image: url("../images/columned-images/c-30-thumnail.jpg");
+        background-size: cover;
+      }
+    }
+    @media only screen and (max-width: 871px) {
+      #hamburger-menu-box {
+        visibility: visible;
+      }
+      .nav {
+        visibility: hidden;
+      }
+    }
+    @media only screen and (max-width: 609px) {
+      .columned-pictures {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    @media only screen and (max-width: 580px) {
+      .main-logo{
+        width: 80%;
+      }
+    }
+    @media only screen and (max-width: 501px) {
+      .other-site-main-box{
+        display: flex ;
+        flex-direction: column ;
+        align-items: center ;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px) {
+  html body .columned-pic {
+    width: 80%; }
+  html body .header {
+    width: 100%; }
+  html body .hamburger-menu-box {
+    width: 100%; } }
+
+/*# sourceMappingURL=columned-pictures.css.map */

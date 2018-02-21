@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEI,yCAA0C;EACxC,uBAAc;IACZ,KAAK,EAAE,GAAG;EAEZ,iBAAQ;IACN,KAAK,EAAE,IAAI;EAEb,6BAAoB;IAClB,KAAK,EAAE,IAAI",
+"sources": ["columned-pictures.scss"],
+"names": [],
+"file": "columned-pictures.css"
+}

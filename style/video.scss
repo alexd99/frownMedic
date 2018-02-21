@@ -1,0 +1,32 @@
+html{
+  body{
+    h2{
+      font-size: 1.6em;
+    }
+    .video-box{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      .video{
+        width: 560px;
+        height: 315px;
+        margin-bottom: 15px;
+      }
+    }
+    @media only screen and (max-width: 1139px) {
+      .video-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    @media only screen and (max-width: 580px) {
+      .video-box {
+        .small-video {
+          width: 280px ;
+          height: 157.5px ;
+        }
+      }
+    }
+  }
+}
